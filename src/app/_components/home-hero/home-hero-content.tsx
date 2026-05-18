@@ -17,19 +17,19 @@ import { motion, AnimatePresence } from 'framer-motion'
 // configs
 // import { AppConfig } from '@/configs'
 
-const MotionTypography = motion(Typography)
+const MotionTypography = motion.create(Typography)
 
 const HomeHeroContent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const SERVICES_TEXTS = [
-    'Digital Marketing',
-    'UI/UX Design',
-    'Web & Mobile App Development',
-    'Cloud Solutions',
-    'Data & Analytics',
-    'AI & Machine Learning',
-    'E-Commerce Solutions',
+    'Koleksi Pria & Wanita',
+    'Kualitas Premium Lokal',
+    'Tren Fashion Terkini',
+    'Pengiriman Seluruh Indonesia',
+    'Pakaian Custom & Eksklusif',
+    'Aksesori & Produk Lifestyle',
+    'Katalog Produk Terbaru',
   ]
 
   useEffect(() => {
@@ -121,18 +121,19 @@ const HomeHeroContent = () => {
             sx={{
               mb: 4,
               fontSize: { xs: 32, md: 40, lg: 52 },
+              color: 'text.hero',
               lineHeight: 1.5,
               fontWeight: '800',
             }}
           >
-            We are Global Digital Brand
+            Destinasi Utama Fashion
             <br />
-            Tech Agency
+            Lokal & Modern
           </Typography>
           <Typography
             sx={{
               mb: 4,
-              color: 'text.secondary',
+              color: 'text.hero',
               fontWeight: 500,
               lineHeight: 2,
               fontSize: {
@@ -141,10 +142,11 @@ const HomeHeroContent = () => {
               },
             }}
           >
-            A Digital Modern Agency specializing in <strong>Design </strong>,
-            <strong>Development </strong>, <strong>Branding </strong>,
+            Brand fashion masa kini yang menghadirkan koleksi 
+            <strong> pakaian eksklusif</strong> <br/> untuk menyempurnakan 
+            <strong>penampilan Anda</strong> di setiap momen 
             <br />
-            and <strong>Online Marketing </strong> to elevate your business.
+            dengan <strong>gaya yang berkelas</strong>.
           </Typography>
         </Box>
         <motion.div

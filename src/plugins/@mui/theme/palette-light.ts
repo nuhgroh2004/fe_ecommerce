@@ -7,8 +7,9 @@ const palette: PaletteOptions = {
     default: '#f5f5f9',
     paper: common.white,
   },
-  text: {
-    primary: grey[800],
+  text: {     
+    hero: '#3397FF',
+    primary: '#000000',
     secondary: grey[600],
     disabled: grey[500],
   },
