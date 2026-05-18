@@ -27,7 +27,7 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       right: 40,
     },
     sxImgContainer: {
-      width: 330,
+      width: 250,
     },
     initial: { rotate: -20, opacity: 0, scale: 2, x: 200 },
     animate: { rotate: 0, opacity: 1, scale: 1, x: 0 },
@@ -37,7 +37,7 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/flowerpot.png',
+      imageUrl: '/images/hero/topi-pantai.png',
       width: 550,
       height: 471,
     },
@@ -51,14 +51,14 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       width: 250,
     },
     initial: { rotate: 10, opacity: 0, scale: 1.25, x: -100 },
-    animate: { rotate: 0, opacity: 1, scale: 1, x: 0 },
+    animate: { rotate: -25, opacity: 1, scale: 1, x: 0 },
     transition: {
       delay: 0.35,
       type: 'spring',
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/camera.png',
+      imageUrl: '/images/hero/topi.png',
       width: 458,
       height: 309,
     },
@@ -70,7 +70,7 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       transform: 'rotate(-45deg)',
     },
     sxImgContainer: {
-      width: 40,
+      width: 100,
     },
     initial: { rotate: -50, opacity: 0, y: 400 },
     animate: { rotate: 0, opacity: 1, y: 0 },
@@ -80,19 +80,19 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/paperclip.png',
+      imageUrl: '/images/hero/pita.png',
       width: 100,
       height: 90,
     },
   },
   {
     sxRoot: {
-      left: 274,
-      bottom: 216,
+      left: 290,
+      bottom: 230,
       transform: 'rotate(13deg)',
     },
     sxImgContainer: {
-      width: 40,
+      width: 100,
     },
     initial: { rotate: -50, opacity: 0, y: 400 },
     animate: { rotate: 0, opacity: 1, y: 0 },
@@ -102,28 +102,28 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/paperclip.png',
+      imageUrl: '/images/hero/pita.png',
       width: 100,
       height: 90,
     },
   },
   {
     sxRoot: {
-      left: -110,
+      left: -70,
       bottom: -160,
     },
     sxImgContainer: {
-      width: 520,
+      width: 400,
     },
     initial: { rotate: 0, opacity: 0, y: 300 },
-    animate: { rotate: 0, opacity: 1, y: 0 },
+    animate: { rotate: 30, opacity: 1, y: 0 },
     transition: {
       delay: 0.35,
       type: 'spring',
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/papers.png',
+      imageUrl: '/images/hero/kaos.png',
       width: 900,
       height: 1000,
     },
@@ -172,8 +172,8 @@ export const animatedDecorations: Array<AnimateDecoration> = [
   },
   {
     sxRoot: {
-      right: -60,
-      bottom: -84,
+      right: -30,
+      bottom: -230,
     },
     sxImgContainer: {
       width: 460,
@@ -186,7 +186,7 @@ export const animatedDecorations: Array<AnimateDecoration> = [
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/mac.png',
+      imageUrl: '/images/hero/model.png',
       width: 500,
       height: 480,
     },
@@ -194,22 +194,22 @@ export const animatedDecorations: Array<AnimateDecoration> = [
   {
     sxRoot: {
       bottom: -90,
-      right: 320,
+      right: 350,
     },
     sxImgContainer: {
-      width: 206,
+      width: 180,
     },
     initial: { rotate: 20, opacity: 0, scale: 1.1, x: 200 },
-    animate: { rotate: -6, opacity: 1, scale: 1, x: 0 },
+    animate: { rotate: -30, opacity: 1, scale: 1, x: 0 },
     transition: {
       delay: 0.2,
       type: 'spring',
       bounce: 0,
     },
     image: {
-      imageUrl: '/images/hero/smartphone.png',
-      width: 500,
-      height: 500,
+      imageUrl: '/images/hero/parfum.png',
+      width: 180,
+      height: 180,
     },
   },
 ]

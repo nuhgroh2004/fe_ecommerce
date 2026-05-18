@@ -9,7 +9,6 @@ import Typography from '@mui/material/Typography'
 import { Link } from 'react-scroll'
 
 // assets
-import MouseIcon from '@/assets/icons/iconamoon--mouse-light.svg'
 import Logo from '@/assets/logo.svg'
 
 // motion
@@ -175,24 +174,6 @@ const HomeHeroContent = () => {
               duration={400}
               style={{ display: 'block' }}
             >
-              <Box
-                component={MouseIcon}
-                height={50}
-                width={50}
-                sx={(theme) => ({
-                  color: theme.palette.text.secondary,
-                })}
-              />
-              <Typography
-                sx={{
-                  color: 'text.disabled',
-                  fontWeight: '500',
-                  fontSize: 12,
-                  mt: 1.2,
-                }}
-              >
-                Scroll for more
-              </Typography>
             </Link>
           </Box>
         </motion.div>

@@ -64,7 +64,7 @@ const AppBar: FC = () => {
             xs: '100%',
             md: 1200,
           },
-          zIndex: 1100, // zIndex @mui AppBar
+          zIndex: 1100, 
           textAlign: 'center',
         }}
       >
